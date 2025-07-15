@@ -1,0 +1,15 @@
+name = input("What's your name:")
+
+print("Hello " + name)
+
+birth_year = int (input("What Year You were born? "))
+current_year = 2025
+age = current_year - birth_year
+
+print("Your Age is " + str(age))
+
+weight = int (input("kg: "))
+height = float (input("m:"))
+bmi = weight/(height ** 2)
+
+print("Your BMI is " + str(bmi))

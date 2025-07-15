@@ -1,0 +1,22 @@
+# String
+name = input ("Your Name is:")
+
+# Integer
+age = 25
+
+# Float
+height = 5.9
+
+# Boolean
+is_student = True
+
+print(name, age, height, is_student)
+
+print(type(name))
+print(type(age))
+print(type(height))
+print(type(is_student))
+
+age_str = str(age)
+height_int = int(height)
+
