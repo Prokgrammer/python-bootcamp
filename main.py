@@ -29,7 +29,7 @@ elif op == "*":
     result = calc_tools.multiply(num1, num2)
 elif op == "/":
     result = calc_tools.divide(num1, num2)
-elif op == "**":
+elif op == "^":
     result = calc_tools.power(num1, num2)
 else:
     result = "Invalid operation."
