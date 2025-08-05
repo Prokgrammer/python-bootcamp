@@ -1,7 +1,7 @@
 import os
 import shutil
 
-folder_path = "C:\Users\emer\Desktop\test_folder"
+folder_path = "C:/Users/emer/Desktop/test_folder"
 
 file_types = {
 

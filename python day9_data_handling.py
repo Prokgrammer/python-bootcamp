@@ -28,10 +28,3 @@ with open("book.csv", "r") as file:
         print(row)
 
 
-with open("grades.csv", "w", newline = '') as file:
-    writer = csv.writer(file)
-    writer.writerow(["Average", "Status"])
-    writer.writerow([99, "Passes"])
-    writer.writerow([89, "Passes"])
-    writer.writerow([69, "Failed"])
- 
